@@ -1,0 +1,20 @@
+Make an details replit app so that i can build an project replace all the tech stack with , only frontend has react and backend as python flask framework okay no other frameworks and technology
+
+i want to be now like sign in and sign up and dashboard 
+it should need to do this of analyze my old html and css and js file for sign up and sign , make all the code is just converted to react not creating new login page i need that replit to use this code and design only exactly dicto copy 
+https://github.com/kannanb2745/MediLive
+which is located on src and under templates page so go to that page and make copy of all code 
+i need an doctor protel that will use as data entry of each patient and we have an client or caretaker portal where he can retrive the live informatioin of doctor proveided 
+here is my detailed abstract 
+you have make an very big prompt to mention each and evrything 
+Medilive : Fullstack Web App for Patient Log Tracking and HealthCare Analysis
+
+In modern hospitals, especially during critical care, intensive treatment, or pandemic situations, strict visitation rules often prevent caretakers and family members from seeing or communicating with the patient. This causes emotional stress and a lack of transparency regarding the patient’s condition. To address this gap, our project titled "MediLive" provides a secure, real-time, full-stack web platform that enables doctors to update patient health data, while allowing authenticated family members to remotely monitor the patient’s condition.
+
+The system is built using a Java Spring Boot microservices architecture, ensuring scalability, modularity, and ease of deployment. It incorporates JWT-based authentication, role-based access control, and RESTful APIs to securely manage doctor and caretaker access. On the frontend, a responsive ReactJS web application is developed for both doctors and users. Doctors can create and update patient records, upload medical reports, monitor vitals, and trigger discharge summaries. Caretakers, upon secure login, can view live updates of patient vitals, access uploaded medical files, and track the patient’s recovery timeline.
+
+Medical documents are stored on cloud platforms like AWS S3, and upon discharge, the system automatically generates a comprehensive PDF report containing the patient's treatment history using tools like iText or JasperReports.
+
+Furthermore, the entire system is containerized using Docker and orchestrated with Docker Compose, enabling seamless local development and deployment. Additional components like WebSocket for real-time updates, Redis for caching, and cloud deployment pipelines using GitHub Actions further enhance the project’s performance and reliability.
+
+This project not only provides a meaningful healthcare solution but also demonstrates advanced knowledge in Java backend development, frontend engineering, DevOps, cloud computing, and secure web systems — making it a powerful addition to a portfolio and a strong differentiator in technical interviews.
