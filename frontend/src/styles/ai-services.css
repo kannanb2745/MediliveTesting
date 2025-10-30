@@ -1,0 +1,139 @@
+.navbar {
+  background: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--primary-color);
+}
+
+.nav-links button {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.hero-ai {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: 100px 20px 60px;
+  text-align: center;
+}
+
+.hero-ai h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero-ai p {
+  font-size: 1.3rem;
+  opacity: 0.95;
+}
+
+.ai-services {
+  padding: 80px 20px;
+}
+
+.ai-services .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.service-card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.service-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.service-card h2 {
+  font-size: 1.8rem;
+  color: var(--text-dark);
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  color: var(--text-light);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.service-features {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 25px 0;
+}
+
+.service-features .feature {
+  background: var(--bg-light);
+  padding: 10px;
+  border-radius: 6px;
+  color: var(--text-dark);
+  font-size: 0.95rem;
+}
+
+.footer {
+  background: var(--text-dark);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer p {
+  color: rgba(255,255,255,0.7);
+}
+
+@media (max-width: 768px) {
+  .hero-ai h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-ai p {
+    font-size: 1.1rem;
+  }
+  
+  .ai-services .container {
+    grid-template-columns: 1fr;
+  }
+}
