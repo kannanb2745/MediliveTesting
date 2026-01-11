@@ -1,0 +1,35 @@
+================================
+IMMEDIATE UPDATE:
+================================
+- patient's reassign to different doctor/caretacker from staff portal
+- patient discharge button or remove button in staff portal (need to be market also at doctor and ct portal)
+- staff dashboard to assign patient to care tacker (patient card crud operation)
+- (may be) staff can assign doctor rather than doctor directly assigning it
+- vital points with Note 
+
+================================
+UPCOMING FEATURES:
+================================
+* chatbot as button an seperate page to list all the details with only selective options and guidance
+ \-> first lets try with simple option reply support bot.
+* Discharge button on each patient card on doctor dashboard
+ \-> past patient list also if possible --------> (Immediate Update)
+* Document Generation button on each patient card
+ \-> auto download option, generate pdf with python
+* Generate report button on patient card on care tacker dashboard
+
+================================
+FIX AND BUGS
+================================
+! Last Name box size in signup
+! login and signup button animation
+! Successful alert prompt animation with card slide down (in vital updates, and check for other areas also)
+
+Module 2:
+Step 1: Fix
+Step 2: prompt to replit to make next module of immediate update
+
+
+
+
+
