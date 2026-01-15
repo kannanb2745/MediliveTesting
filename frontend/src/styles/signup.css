@@ -1,3 +1,16 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.form-group input,
+.form-group select {
+  width: 100%;
+}
+
+
+
 .signup-container {
   min-height: 100vh;
   display: flex;
@@ -45,9 +58,14 @@
   gap: 20px;
 }
 
-.form-row {
+/* .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 15px;
+} */
+.form-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 15px;
 }
 

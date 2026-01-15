@@ -185,7 +185,7 @@ function Signup({ onSignup }) {
                 required
               />
               <span className="checkmark"></span>
-              I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+              I agree to the <a href="#">Terms of Service</a>{' '}and{' '}<a href="#">Privacy Policy</a>
             </label>
             {errors.agreeTerms && <span className="error-message">{errors.agreeTerms}</span>}
           </div>

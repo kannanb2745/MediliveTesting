@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import '../styles/ai-services.css'
+import '../styles/index.css'
 
 function AIServices({ user, logout }) {
   return (

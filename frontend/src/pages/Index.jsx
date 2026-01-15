@@ -39,7 +39,7 @@ function Index({ user, logout }) {
                 ) : (
                   <>
                     <Link to="/login" className="btn btn-outline">Login</Link>
-                    <Link to="/signup" className="btn btn-primary">Sign Up</Link>
+                    <Link to="/signup" className="btn btn-outline">Sign Up</Link>
                   </>
                 )}
               </div>
@@ -70,7 +70,7 @@ function Index({ user, logout }) {
               ) : (
                 <>
                   <Link to="/login" className="btn btn-outline">Login</Link>
-                  <Link to="/signup" className="btn btn-primary">Sign Up</Link>
+                  <Link to="/signup" className="btn btn-outline">Sign Up</Link>
                 </>
               )}
             </div>
@@ -104,7 +104,7 @@ function Index({ user, logout }) {
             </div>
 
             <div className="hero-buttons animate-fade-in-up">
-              <Link to="/signup" className="btn btn-hero-primary">
+              <Link to="/signup" className="btn btn-hero-outline">
                 Get Started Today
                 <span className="arrow">→</span>
               </Link>
